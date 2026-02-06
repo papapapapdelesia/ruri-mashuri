@@ -1,0 +1,12 @@
+#:schema node_modules/wrangler/config-schema.json
+name = "ruri-mashuri"
+main = "src/worker.jsx"
+compatibility_date = "2024-07-24"
+compatibility_flags = ["nodejs_compat"]
+
+kv_namespaces = [
+  { binding = "SUBLINK_KV", id = "e77511a4a22d42fa825662e62d72f7a6" }
+]
+
+[assets]
+directory = "./public"
